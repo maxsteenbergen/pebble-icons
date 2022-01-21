@@ -1,0 +1,11 @@
+{
+  "name": "pebble-icons",
+  "version": "1.0.0",
+  "description": "Pebble icon set ",
+  "main": "react/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
