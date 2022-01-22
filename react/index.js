@@ -119,6 +119,7 @@ export { default as Palette } from "./Palette";
 export { default as PaperPlane } from "./PaperPlane";
 export { default as Paperclip } from "./Paperclip";
 export { default as Pause } from "./Pause";
+export { default as Pebble } from "./Pebble";
 export { default as Phone } from "./Phone";
 export { default as Piston } from "./Piston";
 export { default as Play } from "./Play";
