@@ -1,7 +1,7 @@
-# Pebble
+# [Pebble](https://pebble.framer.media)
 > A free funky formalicious icon set for React (& plain ol' SVG & PNG)
 
-Pebble has been sitting on my shelf for a very long time. There's no real demographic or target use case for this set:   
+Pebble is an icon set that aims for a friendly character. There's no real demographic, no target use case or application for this set:   
 it's mainly intended as a counterpart to all the clean, geometric sets out there. Sometimes, your design could use a little fun(k): that's where Pebble comes in.
 
 ## How to use Pebble
@@ -17,10 +17,16 @@ or NPM:
 npm install pebble-icons
 ```
 
-For the React components, you can add the `color` prop to set your own fill: there's no stroke in any of them.
+Import your icon(s) of choice, then add them like any other React component. You can add the `color` prop to set your own fill (default white): there's no stroke in any of them.
+
+```
+import { Leaf } from "pebble-icons"
+
+<Leaf color={"#f00"} />
+```
 
 ## What's in it?
-
+There's about 160 icons so far, so to much to list. Look at the grid on the [homepage](https://pebble.framer.media) to find the icon you need.
 
 ## Questions / requests?
 Just leave an issue on this repo. However, Pebble is just a little thing I did on the side so I'm not making any promises :)
