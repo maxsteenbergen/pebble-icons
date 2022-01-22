@@ -1,3 +1,5 @@
+![pebble_2020](https://user-images.githubusercontent.com/574278/150652843-64e1d5f4-59e5-45a3-bfe3-b5e77f4d8fe4.png)
+
 # [Pebble](https://pebble.framer.media)
 > A free funky formalicious icon set for React (& plain ol' SVG & PNG)
 
@@ -9,6 +11,7 @@ Pebble is offered as plain SVG, PNG, or as React components (built with [SVGR](h
 
 ```
 yarn add pebble-icons
+
 ```
 
 or NPM: 
