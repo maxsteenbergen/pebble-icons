@@ -4,12 +4,21 @@
   "description": "Pebble icon set ",
   "main": "react/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build-react-svg": "svgr --svgo-config ./svgo_config.js --replace-attr-values '#fff={props.color}' --out-dir ./react svg --typescript",
+    "build": "tsc -p . && rollup ./dist/index --format es --preserveModules"
   },
   "author": "Max Steenbergen",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/maxsteenbergen/pebble-icons"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.66.0",
+    "typescript": "^4.5.5"
   }
 }
