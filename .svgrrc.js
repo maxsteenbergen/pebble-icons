@@ -2,7 +2,7 @@ module.exports = {
   jsx: {
     babelConfig: {
       plugins: [
-        // For an example, this plugin will remove "id" attribute from "svg" tag
+        // Remove "xmlns:serif" attribute from "svg" tag
         [
           "@svgr/babel-plugin-remove-jsx-attribute",
           {
