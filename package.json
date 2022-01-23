@@ -2,12 +2,14 @@
   "name": "pebble-icons",
   "version": "1.0.1",
   "description": "Pebble icon set ",
-  "main": "react/index.js",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build-react-svg": "svgr --svgo-config ./svgo_config.js --replace-attr-values '#fff={props.color}' --out-dir ./react svg --typescript",
-    "build": "npm run clean && npm run build-react-svg && tsc -p . --outDir ./dist --jsx react --declaration --declarationDir ./types --module esnext --allowSyntheticDefaultImports --target esnext --moduleResolution node && rollup ./dist/index --format es --preserveModules -e react",
-    "clean": "rm -rf react && rm -rf types && rm -rf dist"
+    "rollup": "rollup ./dist/index --format es --preserveModules -e react",
+    "clean": "rm -rf react && rm -rf types && rm -rf dist",
+    "build": "npm run clean && npm run build-react-svg && tsc -p . && npm run rollup"
   },
   "author": "Max Steenbergen",
   "license": "MIT",
