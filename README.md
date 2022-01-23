@@ -33,3 +33,6 @@ There's about 160 icons so far, so to much to list. Look at the grid on the [hom
 
 ## Questions / requests?
 Just leave an issue on this repo. However, Pebble is just a little thing I did on the side so I'm not making any promises :)
+
+## Mad props
+- [@huntercaron](https://github.com/huntercaron) for helping getting the package ready for use in Framer
